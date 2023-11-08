@@ -44,7 +44,7 @@ function App() {
 	}
 
 	const deleteDisp = () => {
-		if (calc == '') {
+		if (calc === '') {
 			return
 		}
 		const value = calc.slice(0, -1);
